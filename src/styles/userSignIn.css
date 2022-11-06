@@ -1,0 +1,117 @@
+#bg-blue {
+	background-color: rgb(1, 1, 17);
+	padding-bottom: 2rem;
+	margin-bottom: 0;
+}
+.header-div {
+	text-align: center;
+	padding-top: 1rem;
+}
+.header-div2 {
+	display: inline-block;
+	background-color: rgba(21, 21, 43, 0.5);
+	padding: 2.5rem 2.5rem 1.4rem 2.5rem;
+	border-radius: 50%;
+}
+.img-logo {
+	height: 3.8rem;
+	margin-bottom: 1rem;
+}
+.header-div p {
+	color: #eee;
+	font-weight: 600;
+}
+.body-div {
+	background: linear-gradient(180deg, rgb(9, 9, 41), rgb(14, 10, 37));
+	margin-top: 2rem;
+	box-shadow: 1px 5px 13px #222;
+	justify-content: center;
+	display: flex;
+	padding: 2rem 1rem 1rem 1rem;
+	position: relative;
+}
+.body-div input {
+	border-radius: 2px;
+	background-color: #ccc;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+.body-div input:focus {
+	box-shadow: none;
+	outline: none;
+	background-color: #ccc;
+	font-weight: 600;
+}
+.body-div button {
+	font-weight: 800;
+	border-radius: 2px;
+}
+.body-div .link {
+	font-weight: 700;
+	font-size: 0.9rem;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+.body-div .link:hover {
+	color: #aaa !important;
+}
+.body-div .sublinks a {
+	font-size: 0.8rem;
+	color: #eee;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+.body-div .sublinks a:hover {
+	color: #aaa !important;
+}
+.foot p {
+	color: #eee;
+	font-size: 0.75rem;
+	margin-top: 3rem;
+	font-weight: 600;
+}
+.form-icon {
+	position: absolute;
+	bottom: 52.5%;
+	right: 30%;
+}
+@media (max-width: 1200px) {
+	.form-icon {
+		right: 25.6%;
+	}
+}
+@media (max-width: 992px) {
+	.form-icon {
+		right: 17%;
+	}
+}
+@media (max-width: 767px) {
+	.header-div2 {
+		padding: 2rem 2rem 1.2rem 2rem;
+	}
+	.img-logo {
+		height: 2.8rem;
+	}
+	.form-icon {
+		right: 29%;
+	}
+}
+@media (max-width: 567px) {
+	.form-icon {
+		right: 29%;
+	}
+}
+@media (max-width: 535px) {
+	.form-icon {
+		display: none;
+	}
+}
+
+.text-bold {
+	font-weight: 700;
+	text-decoration: underline;
+	margin-left: 0.3rem;
+}
+.text-bold:hover {
+	color: white;
+}

@@ -1,0 +1,204 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');*/
+header.first_header{
+    background-color: #f29a9c;
+    padding: 20px;
+}
+
+header.first_header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+header.first_header ul>li{
+    display: inline;
+    margin-left: 25px;
+    float: right;
+}
+@media screen and (max-width: 992px) {
+    header.first_header ul>li{
+        float: center;
+    }
+}
+
+header.first_header ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+section.carousel{
+    padding: 15px 30px;
+}
+section.padding{
+    padding: 15px 30px;
+}
+
+.better-nigeria{
+    /* background-color: #3BA6CE; */
+    padding: 20px;
+}
+.better-nigeria p{
+   font-size: 25px;
+}
+
+.tab-pane .main-page{
+    padding: 15px;
+    position: absolute;
+    bottom: 350px;
+}
+
+.tab-pane .donation{
+    background-color: rgb(59, 74, 130);
+    color: white;
+    padding: 25px;
+}
+.tab-pane .tabpanes{
+    background-color: white;
+}
+.tabpanes .all-money{
+    padding: 20px;
+}
+.rwt__tabpanel input{
+    outline: none;
+    box-shadow: none;
+}
+.tabpanes .capacity{
+    margin-top: 30px;
+}
+.rwt__tabpanel{
+    padding: 25px;
+    height: 60vh;
+}
+
+.rwt__tabpanel button{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+}
+.rwt__tabpanel .padbutton{
+    padding: 10px;
+    margin-top: 30px;
+}
+.rwt__tabpanel .btn-submit{
+    background: #2c3968;
+    color: white;
+}
+.success-msg .btn-submit a{
+    color: white;
+    text-decoration: none;
+}
+.success-msg button{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+}
+.success-msg .padbutton{
+    padding: 10px;
+    margin-top: 30px;
+}
+.success-msg .btn-submit{
+    background: #2c3968;
+    color: white;
+}
+.money{
+    background-color: #008080;
+    color: white;
+}
+@media screen and (max-width: 1570px) {
+    .tab-pane .main-page{
+        bottom: 290px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .tab-pane .main-page{
+        bottom: 180px;
+    }
+    .rwt__tabpanel{
+        height: 48vh;
+    }
+    .rwt__tabpanel .padbutton{
+        margin-top: 15px;
+    }
+    .tab-pane .donation h3{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .rwt__tablist{
+        display: inline-block;
+    }
+    .tab-pane .donation h3{
+        font-size: 18px;
+    }
+    .tab-pane .main-page{
+        bottom: 200px;
+        /* padding-top: 50px !important; */
+    }
+}
+@media screen and (max-width: 992px) {
+    .tab-pane .main-page{
+        bottom: 0px;
+        top: 0px;
+        /* padding-top: 50px !important; */
+    }
+    .tab-pane .donation h3{
+        font-size: 19px;
+    }
+    .rwt__tabpanel button{
+        padding: 5px;
+        margin: 10px;    
+    }
+} 
+@media screen and (max-width: 1221px) {
+    .tab-pane .main-page{
+        bottom: 180px;
+    }
+    .rwt__tabpanel{
+        height: 45vh;
+    }
+}
+@media screen and (max-width: 1277px) {
+    .tab-pane .main-page{
+        bottom: 190px;
+    }
+    .rwt__tabpanel{
+        height: 45vh;
+    }
+}
+@media screen and (max-width: 1484px) {
+    .tab-pane .main-page{
+        bottom: 230px;
+    }
+    .rwt__tabpanel{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width: 1483px) {
+    .tab-pane .main-page{
+        bottom: 300px;
+    }
+    .rwt__tabpanel{
+        height: 45vh;
+    }
+}
+
+.thank-you{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.success-msg{
+    padding: 25px;
+    height: 60vh; 
+}
